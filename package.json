@@ -1,0 +1,30 @@
+{
+  "name": "roadmap-task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src/**/*.ts --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azoozin/roadmap-task-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/azoozin/roadmap-task-tracker/issues"
+  },
+  "homepage": "https://github.com/azoozin/roadmap-task-tracker#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
